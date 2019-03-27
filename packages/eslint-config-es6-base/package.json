@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-es6",
+  "name": "eslint-config-es6-base",
   "version": "0.0.1-alpha.0",
   "description": "eslint configurations for es6",
   "main": "index.js",

@@ -1,0 +1,13 @@
+.idea
+node_modules
+
+# logs
+*.log
+
+# coverage
+coverage
+
+# dist
+dist
+
+/out

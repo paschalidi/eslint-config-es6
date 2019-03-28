@@ -1,11 +1,32 @@
 {
   "name": "eslint-config-es6-base",
-  "version": "1.0.0",
-  "description": "A line base for es6",
+  "version": "1.0.2",
+  "description": "eslint config ready to be used in multiple projects",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config"
+  ],
   "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "prettier.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paschalidi/eslint-config-es6.git"
+  },
   "scripts": {
     "test": "(cd example && npm run lint && npm t)"
   },
+  "author": "Stefan Natter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paschalidi/eslint-config-es6/issues"
+  },
+  "homepage": "https://github.com/paschalidi/eslint-config-es6#readme",
   "peerDependencies": {
     "eslint": "^5.13.0",
     "prettier": "^1.16.4"
@@ -22,29 +43,7 @@
     "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/paschalidi/js-lint.git"
-  },
-  "keywords": [
-    "prettier",
-    "eslint",
-    "airbnb",
-    "eslint",
-    "eslint-config",
-    "prettier",
-    "prettier-config"
-  ],
-  "author": "paschalidi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paschalidi/js-lint/issues"
-  },
-  "homepage": "https://github.com/paschalidi/js-lint#readme",
-  "devDependencies": {
-    "lerna": "^3.13.1"
-  },
-  "files": [
-    "index.js"
-  ]
+  "directories": {
+    "example": "example"
+  }
 }

@@ -1,13 +1,18 @@
 module.exports = {
-  "parser": require.resolve("babel-eslint"),
-  "extends": ["airbnb-base", "prettier"].map(require.resolve),
-  "plugins": ["prettier"].map(require.resolve),
-  "rules": {
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+  },
+  parser: "babel-eslint",
+  extends: ["airbnb", "prettier"],
+  plugins: ["prettier"],
+  rules: {
     "class-methods-use-this": 0,
     "import/prefer-default-export": 0,
     "prettier/prettier": ["error"]
   },
-  "globals": {
+  globals: {
     "window": false,
     "document": false,
     "it": false,

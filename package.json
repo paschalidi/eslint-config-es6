@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-es6-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint config ready to be used in multiple projects",
   "keywords": [
     "eslint",
@@ -10,9 +10,7 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js",
-    "prettier.js",
-    "prettier.config.js"
+    "index.js"
   ],
   "repository": {
     "type": "git",

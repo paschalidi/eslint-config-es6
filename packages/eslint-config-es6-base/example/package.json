@@ -2,7 +2,7 @@
   "name": "example-for-eslint-confing",
   "private": true,
   "version": "0.2.0",
-  "description": "Example code for eslint-config-ns",
+  "description": "Example code for eslint-config",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint ./src",

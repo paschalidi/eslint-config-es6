@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A lint base for es6 and react",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paschalidi/js-lint.git"
@@ -21,6 +18,9 @@
     "url": "https://github.com/paschalidi/js-lint/issues"
   },
   "homepage": "https://github.com/paschalidi/js-lint#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "lerna": "^3.13.1"
   }

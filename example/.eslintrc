@@ -1,3 +1,3 @@
 {
-  "extends": "eslint-config-es6-base "
+  "extends": "eslint-config-ns"
 }
